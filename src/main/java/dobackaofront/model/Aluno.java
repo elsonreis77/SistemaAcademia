@@ -95,4 +95,18 @@ public class Aluno {
     public void setPeitoral(double peitoral) {
         this.peitoral = peitoral;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", dataMatricula='" + dataMatricula + '\'' +
+                ", sexo='" + sexo + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", cintura=" + cintura +
+                ", biceps=" + biceps +
+                ", peitoral=" + peitoral +
+                '}';
+    }
 }
