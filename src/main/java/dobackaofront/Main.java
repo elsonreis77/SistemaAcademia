@@ -12,5 +12,8 @@ public class Main {
         Exercicios exercicio01 = new Exercicios("Pneus", 10, 10);
         academia.addExercicio(exercicio01);
 
+        Exercicios exercicio02 = new Exercicios("Tronco", 10, 10);
+        academia.addExercicio(exercicio02);
+
     }
 }
