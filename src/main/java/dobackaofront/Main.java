@@ -15,5 +15,8 @@ public class Main {
         Exercicios exercicio02 = new Exercicios("Tronco", 10, 10);
         academia.addExercicio(exercicio02);
 
+        Exercicios exercicio03 = new Exercicios("Tronco", 10, 10);
+        academia.addExercicio(exercicio02);
+
     }
 }
